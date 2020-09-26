@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:food_app/screen/home_screen.dart';
 
+
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
@@ -8,4 +9,5 @@ void main() {
         scaffoldBackgroundColor: Colors.grey[200], primaryColor: Colors.amber),
     home: HomeScreen(),
   ));
+
 }

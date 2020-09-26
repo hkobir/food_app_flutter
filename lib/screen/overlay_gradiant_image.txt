@@ -1,0 +1,31 @@
+ Container(
+              width: MediaQuery.of(context).size.width,
+              height: 200,
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  image: AssetImage("assets/images/banner.jpg"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            Container(
+              width: MediaQuery.of(context).size.width,
+              height: 200,
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                    begin: Alignment.topRight,
+                    end: Alignment.bottomLeft,
+                    colors: [
+                      Colors.black.withOpacity(0.3),
+                      Colors.black87.withOpacity(0.3),
+                      Colors.black38.withOpacity(0.3),
+                      Colors.black26.withOpacity(0.3),
+                    ],
+                    stops: [
+                      0.1,
+                      0.2,
+                      0.6,
+                      0.9
+                    ]),
+              ),
+            ),
